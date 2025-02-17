@@ -1,4 +1,4 @@
-![HW6-HMM](https://github.com/christine-wan/HW6-HMM-CW/actions/workflows/test.yml/badge.svg)
+[![HW6-HMM](https://github.com/christine-wan/HW6-HMM-CW/actions/workflows/test.yml/badge.svg?event=push)](https://github.com/christine-wan/HW6-HMM-CW/actions/workflows/test.yml)
 
 # HW6-HMM
 
