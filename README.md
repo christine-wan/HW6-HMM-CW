@@ -1,3 +1,5 @@
+![HW6-HMM](https://github.com/christine-wan/HW6-HMM-CW/actions/workflows/test.yml/badge.svg)
+
 # HW6-HMM
 
 In this assignment, you'll implement the Forward and Viterbi Algorithms (dynamic programming). 
@@ -12,9 +14,10 @@ The goal of this assignment is to implement the Forward and Viterbi Algorithms f
 For a helpful refresher on HMMs and the Forward and Viterbi Algorithms you can check out the resources [here](https://web.stanford.edu/~jurafsky/slp3/A.pdf), 
 [here](https://towardsdatascience.com/markov-and-hidden-markov-model-3eec42298d75), and [here](https://pieriantraining.com/viterbi-algorithm-implementation-in-python-a-practical-guide/). 
 
+## Method Description
+The Forward algorithm, implemented in the `forward` function, is a dynamic programming algorithm that computes the probability of an observation sequence given a Hidden Markov Model. It uses a forward trellis to store intermediate probabilities, efficiently summing over all possible hidden state paths instead of explicitly enumerating them.
 
-
-
+The Viterbi algorithm, implemented in the `viterbi` function, is a dynamic programming algorithm used to determine the most likely sequence of hidden states for a given observation sequence. It maintains a trellis to track the highest probability path to each state at every time step, storing backpointers that enable the reconstruction of the optimal sequence through backtracking.
 
 ## Tasks and Data 
 Please complete the `forward` and `viterbi` functions in the HiddenMarkovModel class. 
